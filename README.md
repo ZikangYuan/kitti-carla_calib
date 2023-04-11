@@ -32,6 +32,7 @@ make
 
 Please make sure that the directory format of each sequence of KITTI-CARLA is as follow:
 
+```
 Seuqnce  
 └──────generated  
        ├────────full_poses_lidar.txt  
@@ -41,6 +42,7 @@ Seuqnce
                  ├────frame_0001.ply                
                  ├────......                 
                  └────frame_4999.ply  
+```
                  
 Please make sure that the directpry format of ouput result of each sequence is as follow:
 
