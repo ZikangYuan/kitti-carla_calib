@@ -46,8 +46,10 @@ Seuqnce
                  
 Please make sure that the directpry format of ouput result of each sequence is as follow:
 
+```
 Output  
 ├─────groundtruth.txt  
 └─────correct
+```
 
 where "correct" is the directpry for saving calibrated LiDAR sweeps, and "groundtruth.txt" is the groundtruth pose which corresponds one to one with the calibrated LiDAR sweeps.
