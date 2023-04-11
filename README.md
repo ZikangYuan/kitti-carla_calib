@@ -17,6 +17,7 @@
 > [OpenCV](https://opencv.org/releases/) == 2.4.9 for Ubuntu 16.04
 
 2. Clone and build this repository
+
 ```
 git clone https://github.com/ZikangYuan/kitti-carla_calib.git
 cd kitti-calra_calib
@@ -53,3 +54,9 @@ Output
 ```
 
 where "correct" is the directpry for saving calibrated LiDAR sweeps, and "groundtruth.txt" is the groundtruth pose which corresponds one to one with the calibrated LiDAR sweeps.
+
+4. Run
+
+```
+./bin/motion_calib PTAH_OF_SEQUENCE_DIRECTORY PATH_OF_OUTPUT_DIRECTORY
+```
