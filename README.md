@@ -18,9 +18,12 @@
 
 2. Clone and build this repository
 ```
-cd src
-git clone https://github.com/irapkaist/irp_sen_msgs.git
-git clone https://github.com/ZikangYuan/kaist2bag.git
-cd ..
-catkin build
+git clone https://github.com/ZikangYuan/kitti-carla_calib.git
+cd kitti-calra_calib
+mkdir include
+mkdir lib
+mkdir build
+cd build
+cmake ..
+make
 ```
