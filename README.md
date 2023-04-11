@@ -27,3 +27,25 @@ cd build
 cmake ..
 make
 ```
+
+3. Adjust directory structure
+
+Please make sure that the directory format of each sequence of KITTI-CARLA is as follow:
+
+Seuqnce
+└──────generated
+       ├────────full_poses_lidar.txt
+       ├────────full_ts_camera.txt
+       └────────frames
+                 ├────frame_0000.ply
+                 ├────frame_0001.ply
+                 ├────......
+                 └────frame_4999.ply
+                 
+Please make sure that the directpry format of ouput result of each sequence is as follow:
+
+Output
+├─────groundtruth.txt
+└─────correct
+
+where "correct" is the directpry for saving calibrated LiDAR sweeps, and "groundtruth.txt" is the groundtruth pose which corresponds one to one with the calibrated LiDAR sweeps.
