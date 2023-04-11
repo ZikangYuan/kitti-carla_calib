@@ -32,9 +32,9 @@ make
 
 Please make sure that the directory format of each sequence of KITTI-CARLA is as follow:
 
-Seuqnce
-└──────generated
-       ├────────full_poses_lidar.txt   
+Seuqnce  
+└──────generated  
+       ├────────full_poses_lidar.txt
        ├────────full_ts_camera.txt      
        └────────frames     
                  ├────frame_0000.ply               
