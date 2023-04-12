@@ -1,4 +1,4 @@
-# kitti-carla_calib
+# KITTI-CARLA calibration
 
 **This sourced code is for eliminating the motion distortion of LiDAR point cloud of [KITTI-CARLA dataset](https://npm3d.fr/kitti-carla).**
 
@@ -19,8 +19,8 @@
 2. Clone and build this repository
 
 ```
-git clone https://github.com/ZikangYuan/kitti-carla_calib.git
-cd kitti-calra_calib
+git clone https://github.com/ZikangYuan/kitti_carla_calib.git
+cd kitti_calra_calib
 mkdir include
 mkdir lib
 mkdir build
